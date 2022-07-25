@@ -3,7 +3,7 @@
 <module rename-to="html">
 	<inherits name='com.badlogic.gdx.backends.gdx_backends_gwt' />
 
-    <inherits name='com.github.natim6.GdxDefinition' />
+    <inherits name='com.natim6.spellmaker.GdxDefinition' />
     
     <collapse-all-properties />
     

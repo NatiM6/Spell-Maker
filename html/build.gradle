@@ -4,8 +4,8 @@ gwt {
     minHeapSize="1G"
 
     src = files(file("src/")) // Needs to be in front of "modules" below.
-    modules 'com.github.natim6.GdxDefinition'
-    devModules 'com.github.natim6.GdxDefinitionSuperdev'
+    modules 'com.natim6.spellmaker.GdxDefinition'
+    devModules 'com.natim6.spellmaker.GdxDefinitionSuperdev'
     project.webAppDirName = 'webapp'
 
     compiler {

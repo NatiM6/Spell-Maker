@@ -1,9 +1,9 @@
-package com.github.natim6.client;
+package com.natim6.spellmaker.client;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import com.github.natim6.SpellMaker;
+import com.natim6.spellmaker.Game;
 
 public class HtmlLauncher extends GwtApplication {
 
@@ -17,6 +17,6 @@ public class HtmlLauncher extends GwtApplication {
 
         @Override
         public ApplicationListener createApplicationListener () {
-                return new SpellMaker();
+                return new Game();
         }
 }
